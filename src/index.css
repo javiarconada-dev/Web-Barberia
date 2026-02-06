@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Bebas Neue', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  --color-brand-gold: #C9A227;
+  --color-brand-gold-light: #D4B84A;
+  --color-brand-dark: #0D0D0D;
+  --color-brand-darker: #080808;
+  --color-brand-gray: #1A1A1A;
+  --color-brand-gray-light: #2A2A2A;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-brand-dark);
+  color: #ffffff;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.text-gold {
+  color: var(--color-brand-gold);
+}
+
+.bg-gold {
+  background-color: var(--color-brand-gold);
+}
+
+.border-gold {
+  border-color: var(--color-brand-gold);
+}
+
+.hover\:bg-gold-light:hover {
+  background-color: var(--color-brand-gold-light);
+}
+
+.bg-brand-dark {
+  background-color: var(--color-brand-dark);
+}
+
+.bg-brand-darker {
+  background-color: var(--color-brand-darker);
+}
+
+.bg-brand-gray {
+  background-color: var(--color-brand-gray);
+}
+
+.bg-brand-gray-light {
+  background-color: var(--color-brand-gray-light);
+}
