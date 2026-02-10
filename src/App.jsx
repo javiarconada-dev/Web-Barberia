@@ -4,6 +4,7 @@ import Services from './components/Services'
 import Gallery from './components/Gallery'
 import About from './components/About'
 import Location from './components/Location'
+import Booking from './components/Booking'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
@@ -17,6 +18,7 @@ function App() {
         <Gallery />
         <About />
         <Location />
+        <Booking />
         <Contact />
       </main>
       <Footer />

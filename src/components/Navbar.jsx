@@ -9,6 +9,7 @@ const Navbar = () => {
     { name: 'Galería', href: '#galeria' },
     { name: 'Nosotros', href: '#nosotros' },
     { name: 'Ubicación', href: '#ubicacion' },
+    { name: 'Reservas', href: '#reservas' },
     { name: 'Contacto', href: '#contacto' },
   ]
 
@@ -39,7 +40,7 @@ const Navbar = () => {
               </a>
             ))}
             <a
-              href="#contacto"
+              href="#reservas"
               className="bg-gold text-black px-6 py-2 text-sm font-semibold uppercase tracking-wider hover:bg-gold-light transition-colors duration-300"
             >
               Reservar
@@ -75,7 +76,7 @@ const Navbar = () => {
               </a>
             ))}
             <a
-              href="#contacto"
+              href="#reservas"
               onClick={() => setIsOpen(false)}
               className="block mt-4 bg-gold text-black px-6 py-3 text-sm font-semibold uppercase tracking-wider text-center hover:bg-gold-light transition-colors"
             >

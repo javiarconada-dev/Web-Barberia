@@ -127,7 +127,7 @@ const Services = () => {
         {/* CTA */}
         <div className="text-center mt-16">
           <a
-            href="#contacto"
+            href="#reservas"
             className="inline-flex items-center gap-3 bg-gold text-black px-10 py-4 font-semibold uppercase tracking-wider hover:bg-gold-light transition-all duration-300"
           >
             Reservar Ahora

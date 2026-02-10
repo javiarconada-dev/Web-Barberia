@@ -41,7 +41,7 @@ const Hero = () => {
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a
-            href="#contacto"
+            href="#reservas"
             className="group bg-gold text-black px-10 py-4 text-lg font-semibold uppercase tracking-wider hover:bg-gold-light transition-all duration-300 flex items-center gap-3"
           >
             Reservar Cita
